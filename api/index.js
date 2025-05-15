@@ -5,6 +5,4 @@ app.get('/', (req, res) => {
   res.send('Olá, mundo!');
 });
 
-module.exports = (req, res) => {
-  return app(req, res);
-};
+module.exports = app;
